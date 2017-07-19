@@ -14,5 +14,5 @@ page_token = geocode_result["next_page_token"]
 geocode_result = gmaps.places(None, page_token=page_token)
 result = geocode_result["results"][0]
 
-print(result["formated_address"])
+print(result["formatted_address"])
 
