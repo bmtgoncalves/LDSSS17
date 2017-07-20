@@ -1,7 +1,7 @@
 import sys
 import shapefile
 
-shp = shapefile.Reader('geofiles/nybb_15cc/nybb_wgs84.shp')
+shp = shapefile.Reader('geofiles/nybb_15c/nybb_wgs84.shp')
 
 print("Found", shp.numRecords, "records:")
 
