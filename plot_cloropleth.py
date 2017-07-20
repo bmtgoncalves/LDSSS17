@@ -5,7 +5,7 @@ from matplotlib import patches
 import shapefile
 import numpy as np
 
-shp = shapefile.Reader('geofiles/nybb_15cc/nybb_wgs84.shp')
+shp = shapefile.Reader('geofiles/nybb_15c/nybb_wgs84.shp')
 boros = {}
 
 for shaperecord in shp.iterShapeRecords():
