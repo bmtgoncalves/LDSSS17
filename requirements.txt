@@ -1,5 +1,5 @@
 foursquare==1!2016.9.12
-geopy==1.11.0
+geopy==2.5.0
 googlemaps==2.4.6
 matplotlib==2.0.1
 networkx==1.11
